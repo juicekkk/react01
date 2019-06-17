@@ -20,7 +20,7 @@ class Counter extends Component {
   render() {
     return (
       <div>
-        <h1>카운터 ~</h1>
+        <h1>카운터  223~</h1>
         <div>값: {this.state.number}</div>
         <button onClick={this.handleIncrease}>+</button>
         <button onClick={this.handleDecrease}>-</button>
